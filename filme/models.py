@@ -6,6 +6,7 @@ LISTA_CATEGORIA = (
     ("ANALISE", "Análise"),
     ("PROGRAMACAO", "Programação"),
     ("APRESENTACAO", "Apresentação"),
+    ("OUTROS", "outros")
 )
 
 # criar o filme
