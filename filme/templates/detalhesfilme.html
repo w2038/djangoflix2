@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block titulo %}
+    Home Filmes
+{% endblock %}
+
+{% block content %}
+    <div class="py-12">
+        <h1>Detalhe do filme: {{ object.titulo }}</h1>
+        <p>{{ object }}</p>
+        <p>{{ object.descricao }}</p>
+        <img src="{{ object.thumb.url }}">
+    </div>
+{% endblock %}
