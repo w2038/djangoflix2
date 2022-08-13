@@ -75,7 +75,7 @@ WSGI_APPLICATION = 'djangoflix.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
-
+AUTH_USER_MODEL = "filme.Usuario"
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
